@@ -54,19 +54,16 @@
     </div>
 </nav>
 
-<!-- Contenido Principal (todo lo que me compartiste) -->
-<!-- Aquí iría desde el banner hasta el pie de página, exactamente como lo compartiste, sin modificar esa estructura -->
-
-<!-- Imagen principal con texto encima -->
+<!-- Banner principal -->
 <div class="banner-container">
-    <img src="IMG/escuela.jpg" alt="Banner Escuela">
-    <div class="banner-text">
+    <img src="IMG/escuela.jpg" alt="Banner Escuela" class="img-fluid w-100" style="max-height: 500px; object-fit: cover;">
+    <div class="banner-text text-white text-center">
         <h1 class="fw-bold">Bienvenidos a Nuestra Institución</h1>
         <p>Formamos personas con valores, conocimiento y pasión por aprender</p>
     </div>
 </div>
 
-<!-- Descripción de la institución -->
+<!-- Descripción -->
 <div class="container my-5">
     <p class="text-center fs-5">
         Somos una institución educativa comprometida con el desarrollo académico y personal de nuestros estudiantes,
@@ -74,7 +71,72 @@
     </p>
 </div>
 
-<!-- ... (el resto del contenido sigue igual hasta el final) ... -->
+<!-- Niveles Académicos -->
+<div class="container my-5">
+    <h2 class="text-center mb-4">Niveles Académicos</h2>
+    <div class="row text-center">
+        <div class="col-md-4">
+            <i class="fas fa-child fa-3x text-primary mb-3"></i>
+            <h4>Preescolar</h4>
+            <p>Educación inicial con enfoque en el desarrollo emocional, social y cognitivo.</p>
+        </div>
+        <div class="col-md-4">
+            <i class="fas fa-school fa-3x text-success mb-3"></i>
+            <h4>Primaria</h4>
+            <p>Formación sólida en lectura, matemáticas, ciencias y valores fundamentales.</p>
+        </div>
+        <div class="col-md-4">
+            <i class="fas fa-user-graduate fa-3x text-danger mb-3"></i>
+            <h4>Secundaria</h4>
+            <p>Desarrollo de pensamiento crítico, preparación para la educación media superior.</p>
+        </div>
+    </div>
+</div>
+
+<!-- Actividades -->
+<div class="container my-5">
+    <h2 class="text-center mb-4">Actividades Destacadas</h2>
+    <div class="row text-center">
+        <div class="col-md-4">
+            <i class="fas fa-paint-brush fa-3x text-warning mb-3"></i>
+            <h5>Arte y Cultura</h5>
+            <p>Fomentamos la creatividad a través de talleres artísticos y presentaciones culturales.</p>
+        </div>
+        <div class="col-md-4">
+            <i class="fas fa-futbol fa-3x text-success mb-3"></i>
+            <h5>Deportes</h5>
+            <p>Contamos con equipos deportivos y torneos internos para promover el trabajo en equipo.</p>
+        </div>
+        <div class="col-md-4">
+            <i class="fas fa-flask fa-3x text-info mb-3"></i>
+            <h5>Ciencia y Tecnología</h5>
+            <p>Incentivamos la investigación y el uso de tecnologías mediante ferias y clubes.</p>
+        </div>
+    </div>
+</div>
+
+<!-- Eventos -->
+<div class="container my-5">
+    <h2 class="text-center mb-4">Próximos Eventos</h2>
+    <div class="row">
+        <div class="col-md-6 mb-4">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Semana Cultural</h5>
+                    <p class="card-text">Del 5 al 9 de junio, con presentaciones artísticas, talleres y exposiciones estudiantiles.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 mb-4">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Concurso de Ciencia</h5>
+                    <p class="card-text">20 de junio: Presenta tu proyecto científico y compite por premios y reconocimientos.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <!-- Pie de Página -->
 <?php include 'HTML/footer.html'; ?>
