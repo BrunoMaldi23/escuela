@@ -1,0 +1,13 @@
+# Ignorar archivos de VSCode
+.vscode/
+
+# Ignorar dependencias
+/node_modules/
+
+# Ignorar archivos temporales
+*.log
+*.tmp
+
+# Ignorar archivos generados por el sistema operativo
+.DS_Store
+Thumbs.db
